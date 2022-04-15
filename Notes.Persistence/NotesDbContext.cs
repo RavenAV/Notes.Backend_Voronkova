@@ -6,10 +6,11 @@ using Notes.Persistence.EntityTypeConfigurations;
 
 namespace Notes.Persistence
 {
+    // Это силд-класс, реализующий интерфейс INotesDbContext и наследующийся от DbContext
     public class NotesDbContext : DbContext, INotesDbContext
     {
-        public DbSet<Note> Notes { get; set; }
-        public NotesDbContext(DbContextOptions<NotesDbContext> options)
+        public DbSet<Note> Notes { get; set; } //действует как репозиторий
+        public NotesDbContext(DbContextOptions<NotesDbContext> options) // действует как unitofwork
             : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder builder)
