@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xcBcyrhetQaPGSgIwtuIFEu6aeyPHxwV4VCOaimFevROpL1DmJ68fimAJjJjUA6NxEGzREsIxajK06tfr2Y83w==",
+  "dgSpecHash": "uyvybx6uj2SGKcbUX9SNU0q4N3Mqzd9F6A3y8AJEprCRII5FiFj8u6IvQaIVdMvvfurd81IpTLzoGphFC4BEmw==",
   "success": true,
   "projectFilePath": "D:\\Directory\\Notes.Backend\\Notes.Persistence\\Notes.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
