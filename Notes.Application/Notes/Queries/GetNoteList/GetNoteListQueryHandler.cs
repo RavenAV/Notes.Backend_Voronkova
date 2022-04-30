@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Notes.Application.Notes.Queries.GetNoteList
 {
-    internal class GetNoteListQueryHandler
+    public class GetNoteListQueryHandler
         : IRequestHandler<GetNoteListQuery, NoteListVm>
     {
         private readonly INotesDbContext _dbContext;
