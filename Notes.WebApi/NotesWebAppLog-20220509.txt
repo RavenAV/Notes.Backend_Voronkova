@@ -1,0 +1,26 @@
+2022-05-09 12:33:31.432 +03:00 [INF] Entity Framework Core 6.0.3 initialized 'NotesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.3' with options: None
+2022-05-09 12:33:32.528 +03:00 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2022-05-09 12:33:35.776 +03:00 [INF] Now listening on: https://localhost:7179
+2022-05-09 12:33:35.777 +03:00 [INF] Now listening on: http://localhost:5179
+2022-05-09 12:33:35.788 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-09 12:33:35.790 +03:00 [INF] Hosting environment: Development
+2022-05-09 12:33:35.791 +03:00 [INF] Content root path: D:\Directory\Notes.Backend\Notes.WebApi
+2022-05-09 12:33:39.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7179/index.html - -
+2022-05-09 12:33:40.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7179/index.html - - - 200 - text/html;charset=utf-8 1365.9171ms
+2022-05-09 12:33:40.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger-ui-standalone-preset.js - -
+2022-05-09 12:33:40.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - -
+2022-05-09 12:33:40.668 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger-ui-bundle.js - -
+2022-05-09 12:33:40.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger-ui.css - -
+2022-05-09 12:33:40.675 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.4574ms
+2022-05-09 12:33:40.693 +03:00 [INF] The file /swagger-ui-bundle.js was not modified
+2022-05-09 12:33:40.695 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger-ui-bundle.js - - - 304 - application/javascript 28.1197ms
+2022-05-09 12:33:40.707 +03:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2022-05-09 12:33:40.710 +03:00 [INF] The file /swagger-ui.css was not modified
+2022-05-09 12:33:40.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger-ui-standalone-preset.js - - - 304 - application/javascript 55.0934ms
+2022-05-09 12:33:40.723 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger-ui.css - - - 304 - text/css 51.6192ms
+2022-05-09 12:33:41.899 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - -
+2022-05-09 12:33:42.002 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7179/favicon-32x32.png - -
+2022-05-09 12:33:42.015 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-05-09 12:33:42.016 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7179/favicon-32x32.png - - - 200 628 image/png 13.8180ms
+2022-05-09 12:33:42.189 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 289.7350ms
